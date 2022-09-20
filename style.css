@@ -1,0 +1,113 @@
+
+.navbar> ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /*kutunun dışında taşan kısımları göstermemektedir*/
+    background-color: black;
+    font-weight:bold;
+    font-size:18px;
+}
+
+.navbar,li {
+    display:inline-block;
+}
+.navbar,li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar,li a:hover{
+    background-color:black; 
+}
+
+.image img{
+    width:560px;
+    height:350px; 
+    margin-top:10px;
+    margin-left:400px;
+}
+
+.urun> ul {
+    text-align:center;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-size:20px;
+    content:".";
+}
+.paragraf p {
+    text-align:center;
+    font-size:19px;    
+}
+.header h1 {
+    font-size:23px;
+    margin-top:20px;
+    text-align:center;
+    text-decoration:underline; /*altı çizili yazma*/
+}
+
+/*--------------------------hakkımızda-------------------------------*/
+
+.about p{
+    font-size:18px;
+    font-weight:bold;
+    margin-left:150px;
+    margin-top:25px;
+
+}
+.gorsel  img{
+    width:670px;
+    height:370px;
+    text-align:center;
+    margin-left:350px;
+    margin-top:25px;
+   }
+
+.button{
+ background-color:grey;
+ font-size:16px;
+ font-weight:bold;
+ border-radius:9px;
+ padding:8px;
+ margin-top:30px;
+ transition: all 3s;
+ cursor:default;
+ margin-left:570px;
+
+ 
+}
+.button :hover{
+    background: white;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
+    
+
+   
+}
+
+
+/*--------------------------ürünlerimiz------------------------------*/
+
+.headerürün h3{
+    text-align:center;
+    font-size:21px;
+}
+
+.headerürün img{
+    width:310px;
+    height:320px;
+    margin-left:490px;
+    border-radius:30px;
+    border:2px solid black;
+}
+
+.paragraf1 p{
+ font-size:15px;
+ margin-left:300px;
+ font-weight:bold;
+ line-height:1.3;
+ text-indent:5px; 
+}
